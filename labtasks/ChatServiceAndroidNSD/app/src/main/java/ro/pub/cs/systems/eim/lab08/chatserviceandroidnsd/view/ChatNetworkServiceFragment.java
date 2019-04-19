@@ -10,7 +10,14 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import java.io.IOException;
+import java.net.Inet4Address;
+import java.net.InetAddress;
+import java.net.NetworkInterface;
+import java.util.Enumeration;
 
 import ro.pub.cs.systems.eim.lab08.chatserviceandroidnsd.R;
 import ro.pub.cs.systems.eim.lab08.chatserviceandroidnsd.controller.NetworkServiceAdapter;
